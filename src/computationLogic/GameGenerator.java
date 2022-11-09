@@ -19,7 +19,7 @@ public class GameGenerator {
      * - The resulting allocation must not produce invalid rows, columns, or squares.
      * - If the allocation does produce an invalid game
      *
-     * @return
+     * 
      */
     private static int[][] getSolvedGame() {
         Random random = new Random(System.currentTimeMillis());
@@ -93,8 +93,6 @@ public class GameGenerator {
      * 3. Test the new Array for solvablility.
      * 4a. Solveable -> return new Array
      * 4b. return to step 1
-     * @param solvedGame
-     * @return
      */
     private static int[][] unsolveGame(int[][] solvedGame) {
         Random random = new Random(System.currentTimeMillis());
